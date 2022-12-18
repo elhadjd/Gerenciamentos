@@ -1,14 +1,4 @@
-const Sequelize = require('sequelize')
 
-const connection = ()=>{
-    const sequelize = new Sequelize('license','MamoudouLicense','MamoudouLicense',{
-        host: 'localhost',
-        dialect: 'mysql'
-    })
-    return sequelize
-}
-
-module.exports = connection
 
 
 
