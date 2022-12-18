@@ -35,7 +35,7 @@ app.get('/GetClients',CheckToken,clientController.GetClients)
 
 // Routers
 app.get('/',(req,res)=>{
-    res.status(200).json({msg: 'Bem vindo ao nossa api'})
+    res.status(200).json({msg: 'Bem vindo ao nossa api  fasdfdgadghdfghdfhdf'})
 })
 // Register user
 app.post('/auth/register',userController.NewUser)
