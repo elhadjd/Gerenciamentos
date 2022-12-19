@@ -21,7 +21,7 @@ app.use(express.json())
 const User = require('./app/models/User')
 
 // Routers autorisation
-app.use(cors({credentials: true, origin: 'http://127.0.0.1:5173'}))
+app.use(cors({credentials: true, origin: 'http://18.231.173.211:1981',}))
 
 
 // Private Route
@@ -44,6 +44,7 @@ app.post('/auth/register',userController.NewUser)
 app.post('/auth/login',userController.Login)
 
 // credencials 
+
 const dbUser = process.env.DB_USER
 const dbPassword = process.env.DB_PASS
 
