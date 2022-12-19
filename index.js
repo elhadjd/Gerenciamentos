@@ -21,7 +21,7 @@ app.use(express.json())
 const User = require('./app/models/User')
 
 // Routers autorisation
-app.use(cors({credentials: true, origin: 'http://18.231.173.211:1981',}))
+app.use(cors({credentials: true, origin: 'https://gerenciamento-front-end.vercel.app',}))
 
 
 // Private Route
